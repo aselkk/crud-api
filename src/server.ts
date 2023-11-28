@@ -1,4 +1,4 @@
-import * as http from 'http';
+import http from 'http';
 import { config } from 'dotenv';
 import { handleUserRoutes } from './routes/userRoutes';
 

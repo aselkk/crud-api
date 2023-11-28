@@ -5,7 +5,7 @@
   "scripts": {
     "start:dev": "nodemon --config nodemon.json src/server.ts",
     "start:prod": "npm run build && node dist/bundle.js",
-    "start:multi": "node src/loadBalancer.ts",
+    "start:multi": "node src/loadBalancer.js",
     "build": "webpack --config webpack.config.js",
     "test": "jest",
     "test:watch": "jest --watch"
